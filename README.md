@@ -1,2 +1,0 @@
-# angularApp
-Learning angular
