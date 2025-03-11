@@ -5,8 +5,8 @@ export interface Task{
   summary:string
   dueDate:string
 }
-export interface NewTaskData{
-  title:string
-  summary:string
-  date:string
-}
+export type NewTaskData = {
+  title: string;
+  summary: string;
+  date: string;
+};

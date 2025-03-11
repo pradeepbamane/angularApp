@@ -1,13 +1,15 @@
 <section id="tasks" style="overflow-y: auto; height: 300px;">
-
+<app-card>
     <article>
         <h2>{{task.title}}</h2>
-        <time>{{task.dueDate}}</time>
+        <time>{{task.dueDate | date}}</time>
         <p>{{task.summary}}</p>
         <P class="actions">
             <button (click)="onCompleteTask()">Complete</button>
         </P>
     </article>
+</app-card>
+  
 
     
 </section>
